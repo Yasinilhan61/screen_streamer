@@ -153,7 +153,8 @@ class ScreenSender {
             ? true
             : {
                 'deviceId': {'exact': source.id},
-                'mandatory': {'frameRate': 30.0},
+                'mandatory': {'frameRate': 30.0,'minWidth': 1280,
+                'minHeight': 720},
               }
       },
     );
